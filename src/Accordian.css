@@ -1,0 +1,33 @@
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: #efe0ff;
+    border-radius: 15px 15px 0 0  ;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading-container.active {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: #efe0ff;
+    border-radius: 15px 15px 0 0  ;
+    padding: 15px;
+    
+}
+
+.content-container {
+    width: 100%;
+    background: #efe0ff;
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+}
+.close-accordian {
+    cursor: pointer;
+}
