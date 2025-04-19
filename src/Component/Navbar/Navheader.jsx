@@ -37,9 +37,9 @@ const Navheader = () => {
 
                         <ul className={isMenuOpen ? 'nav-links active' : 'nav-links'}>
                             <li className='nav-item'><NavLink to="/" onClick={toggleMenu}>Home</NavLink></li>
-                            <li className='nav-item'><NavLink to="/about" onClick={toggleMenu}>Weather App</NavLink></li>
-                            <li className='nav-item'><NavLink to="/todo" onClick={toggleMenu}>Todo List</NavLink></li>
-                            <li className='nav-item'><NavLink to="/phoneOtp" onClick={toggleMenu}>Otp Generator</NavLink></li>
+                            <li className='nav-item'><NavLink to="/about" onClick={toggleMenu}>Weather</NavLink></li>
+                            <li className='nav-item'><NavLink to="/todo" onClick={toggleMenu}>Todo </NavLink></li>
+                            <li className='nav-item'><NavLink to="/phoneOtp" onClick={toggleMenu}>Otp </NavLink></li>
                             <li className='nav-item'><NavLink to="/accordian" onClick={toggleMenu}>Accordian</NavLink></li>
                             <li className='nav-item'><NavLink to="/SelectField" onClick={toggleMenu}>SelectField</NavLink></li>
                             <li className='nav-item'><NavLink to="/calculator" onClick={toggleMenu}>Calculator</NavLink></li>

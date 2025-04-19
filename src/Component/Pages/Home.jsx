@@ -5,6 +5,7 @@ import bg2 from "../../images/bg2.jpg";
 import bg3 from "../../images/bg3.jpg";
 
 import Carousal from "./Carousal";
+import StarRating from "../StarRating/StarRating";
 
 const Home = () => {
 
@@ -35,6 +36,7 @@ const CarousalData = [
     <>
       <Carousal data={CarousalData} />
       <Cards />
+      <StarRating/>
     </>
   );
 };
